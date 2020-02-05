@@ -5,10 +5,14 @@ This is a wesbite for King Performance Therapy which is a Chartered Physiotherap
 
 ## UX
 
-This website is for anyone who is in pain or discomfort or simply wants to get fit. The user can book in for either a Physiotherapy session or a Personal Training session online at a time that is most convenient to them. 
-The user can also learn about what both services are, how the services could benefit them and who is providing the service.
+This website is for any individual who is in pain and/or who wants to get fit and would like a solution to those problems. The individuals can book online for either a Chartered Physiotherapy session or a Personal Training session. 
+The "USP" is that physiotherapy and personal training is provided by the same individual in the same location so it is mianly for people who want to remain active in a gym settion while they rehabilitate or work around their current physical impairment.
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+User X = An active individual with knee pain who is unsure what the problem is, how they got the problem and how they can fix it. They srrive at the landing page where they see that Chartered Physiotherapy is available. Unsure if they would like to book straight away
+They click into "my services" where they see the price list and click the "more info" button in the physiotherapy box which takes them to a section that explains what physiotherapy is and how it can solve their problem. They see the "book-now" button immediately under that and book a chartered physiotherapy appointment using the cliniko API embedded in the website.
+
+User Y = A new gym goer who wants personal training (PT) by someone who knows exactly what they're talking about. They see the same individual that provides Chartered Physiotherapy is also the personal trainer so they assume that the provider must have the knowledge
+necessary to solve this problem for them. They can also learn how how PT can help them and they can book an appointment using the call to action buttons that are available on every page of the website.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
@@ -16,6 +20,14 @@ In particular, as part of this section we recommend that you provide a list of U
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
+
+Feature 1 - Contact forms are available for users to ask questions regarding the services.
+
+Feauture 2 - A map is available to locate where the business is so local people can see that it is within traveling distance of them.
+
+Feature 3 - Online bookings can be taken using "cliniko" which is embedded into the website.
+
+Feature 4 - Links to social media accounts using the social media icons will be available in the header and footer so that individuals can view its social media business pages.
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
