@@ -2,19 +2,50 @@
 
 /*------------------------------------Colors*/
 
+
+.header {
+background-color: rgba(0, 0, 0, 1);
+background-size: cover;
+}
+
+
+
+rgb(251,170,25) 
+
 /*------------------------------------Special Paddings/text/margins */
 
 /*------------------------------------Heading */
 
-/*------------------------------------Hover.css */
+.header {
+background-color: rgba(0, 0, 0, 1);
+background-size: cover;
+}
 
 /*------------------------------------Footer */
 
+.footer {
+background-color: rgba(0, 0, 0, 1);
+background-size: cover;
+}
+
+
 /*------------------------------------My Services Section */
+
+.services {
+background-color: #fafafa;
+}
 
 /*------------------------------------Contact Section */
 
+.contact {
+background-color: #fafafa;
+}
+
 /*------------------------------------Testimonials Section */
+
+.testimonials {
+background-color: #000;
+}
 
 /*------------------------------------Physiotherapy Section */
 
@@ -23,3 +54,5 @@
 /*------------------------------------Special Offer Section */
 
 /*------------------------------------About Me Section */
+
+/*------------------------------------Hover.css */
