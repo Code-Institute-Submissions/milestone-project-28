@@ -5,22 +5,45 @@
 /*------------------------------------Header */
 
 .header {
-background: rgba(251,170,25, 0.1);
-background-size: cover;
+    background: black;
 }
+
+.nav a {
+    color: #fafafa;
+}
+
+.nav a:hover {
+    color: rgba(251,170,25, 1);
+}
+
+.header a h2 {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.header a h2:hover {
+    color: rgba(251,170,25, 1);
+    text-decoration: none;
+}
+
 
 /*------------------------------------Hero-image */
 
-.hero-image {
-background: url("../Images/Ed-Shorts.jpg");
-background-size: cover;
-background-position: 70% 90%;
-background-repeat: no-repeat;
-transition: all .5s ease-in-out;
--moz-transition: all .5s ease-in-out;
--webkit-transition: all .5s ease-in-out;
-background-attachment: fixed;
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../Images/Ed-Shorts.jpg");
+    background-size: cover;
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
+
+#catchphrase > h2 {
+    color: #fafafa;
+ }
 /*------------------------------------Footer */
 
 
