@@ -6,6 +6,15 @@
 
 .header {
     background: black;
+    text-transform: uppercase;
+}
+
+#logo {
+    width: 500px;
+}
+
+#logo:hover {
+    color: rgba(251,170,25, 1);
 }
 
 .nav a {
@@ -21,9 +30,10 @@
     text-decoration: none;
 }
 
-.header a h2:hover {
-    color: rgba(251,170,25, 1);
-    text-decoration: none;
+
+
+.header a:link {
+  text-decoration: none;
 }
 
 
@@ -41,9 +51,6 @@
     -webkit-transition: all .5s ease-in-out;
 }
 
-#catchphrase > h2 {
-    color: #fafafa;
- }
 /*------------------------------------Footer */
 
 
