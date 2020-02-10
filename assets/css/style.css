@@ -2,6 +2,9 @@
 
 /*------------------------------------Colors*/
 
+/*------------------------------------Special Paddings/text/margins */
+
+/*------------------------------------Heading */
 
 .header {
 background: url("../Images/Ed-Shorts.jpg");
@@ -16,21 +19,65 @@ background-attachment: fixed;
 }
 
 .topbar {
-    background-color: rgba(0, 0, 0, 1)
+    background-color: rgba(0, 0, 0, 1);
+    height: 25px;
 }
 
-
-rgb(251,170,25) 
-
-/*------------------------------------Special Paddings/text/margins */
-
-/*------------------------------------Heading */
-
-.header {
-background: url("../Images/Ed-Shorts.jpg");
-background-size: cover;
+#topbar-nav {
+padding-right: 100px;
 }
 
+#topbar-nav li {
+float: right;
+padding-right: 50px;
+
+}
+
+/*.social-links {
+    padding-bottom: 15px;
+}*/
+
+.social-links li a i {
+    width: 40px;
+    height: 40px;
+    padding: 12px 0;
+    border-radius: 25%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: rgba(251,170,25, 1);
+}
+
+#contact {
+    padding-left: 100px;
+}
+
+#contact li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 25%;
+    font-size: 13px;
+    line-height: 3px;
+    text-align: center;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#contact li a i:hover {
+    color: rgba(251,170,25, 1);
+}
 /*------------------------------------Footer */
 
 .footer {
