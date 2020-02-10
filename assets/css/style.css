@@ -2,9 +2,7 @@
 
 /*------------------------------------Colors*/
 
-/*------------------------------------Special Paddings/text/margins */
-
-/*------------------------------------Heading */
+/*------------------------------------Header */
 
 .header {
 background: url("../Images/Ed-Shorts.jpg");
@@ -18,8 +16,20 @@ transition: all .5s ease-in-out;
 background-attachment: fixed;
 }
 
+.logo {
+    background: url("../Images/blacklogo.eps");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+/*------------------------------------Topbar */
+
 .topbar {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 25px;
 }
 
@@ -33,16 +43,11 @@ padding-right: 50px;
 
 }
 
-/*.social-links {
-    padding-bottom: 15px;
-}*/
-
 .social-links li a i {
     width: 40px;
     height: 40px;
     padding: 12px 0;
-    border-radius: 25%;
-    font-size: 13px;
+    font-size: 20px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
@@ -61,11 +66,10 @@ padding-right: 50px;
 }
 
 #contact li a i {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     padding: 12px 0;
-    border-radius: 25%;
-    font-size: 13px;
+    font-size: 20px;
     line-height: 3px;
     text-align: center;
     color: #fafafa;
@@ -78,6 +82,10 @@ padding-right: 50px;
 #contact li a i:hover {
     color: rgba(251,170,25, 1);
 }
+
+.seperator { 
+    color: rgba(251,170,25, 1); 
+}
 /*------------------------------------Footer */
 
 .footer {
@@ -86,6 +94,12 @@ background-size: cover;
 }
 
 /*------------------------------------Menu */
+
+.nav {
+    float: right;
+    position: fixed;
+    padding-right: 400px;
+}
 
 .menu-item {
     list-style: none;
