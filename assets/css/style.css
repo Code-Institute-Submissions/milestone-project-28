@@ -43,13 +43,17 @@ padding-right: 50px;
 
 }
 
+.social-links {
+    padding-top: 10px;
+    content: center;
+
+}
 .social-links li a i {
-    width: 40px;
-    height: 40px;
-    padding: 12px 0;
+    width: 20px;
+    height: 20px;
+    padding: 12px 30px;
     font-size: 20px;
     line-height: 7px;
-    text-align: center;
     color: #fafafa;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -62,13 +66,22 @@ padding-right: 50px;
 }
 
 #contact {
-    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    content: center;
+}
+
+#contact li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #fafafa;
 }
 
 #contact li a i {
     width: 40px;
     height: 40px;
-    padding: 12px 0;
+    padding: 10px;
     font-size: 20px;
     line-height: 3px;
     text-align: center;
@@ -88,9 +101,13 @@ padding-right: 50px;
 }
 /*------------------------------------Footer */
 
-footer {
+.footer {
 background-color: rgba(0, 0, 0, 1);
-background-size: cover;
+background: cover;
+}
+
+.footerlogo {
+    background: url("../Images/footerlogo.jpg");
 }
 
 /*------------------------------------Menu */
