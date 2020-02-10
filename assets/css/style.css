@@ -108,6 +108,15 @@ background: cover;
 
 .footerlogo {
     background: url("../Images/footerlogo.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    max-height: 100px;
+    min-height: 50px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    background-attachment: fixed;
 }
 
 /*------------------------------------Menu */
