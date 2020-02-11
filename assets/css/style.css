@@ -2,6 +2,14 @@
 
 /*------------------------------------Colors*/
 
+/*------------------------------------Colors*/
+
+
+section.services.container p {
+    margin: 3rem;
+}
+
+
 /*------------------------------------Header */
 
 .header {
@@ -147,13 +155,19 @@ text-align: center;
 
 .services h2 {
     text-align: center;
+    padding: 30px;
 }
+
 
 .services-card { 
    margin-left: 25%;
    margin-right: 25%;
+   margin-bottom: 4rem;
 }
 
+section.services.container p {
+    margin: 3rem;
+}
 /*------------------------------------Contact Section */
 
 .contact {
@@ -161,13 +175,30 @@ background-color: #fafafa;
 }
 
 .contact h2 {
+    margin-top: 8px;
+    padding: 30px;
     text-align: center;
 }
 
 /*------------------------------------Testimonials Section */
 
 .testimonials {
-background-color: #000;
+background-color: rgb(223, 69, 69);
+}
+
+.testimonials div h2 {
+margin-top: 8px;
+padding: 30px;
+text-align: center;
+}
+
+.card-group {
+    border: 0;
+    border-color: none;
+}
+
+div.card {
+    border: 0;
 }
 
 /*------------------------------------Physiotherapy Section */
