@@ -148,6 +148,7 @@ text-align: center;
 
 /*------------------------------------My Services Section */
 
+
 .services {
 background-color: #fafafa;
 text-align: center;
@@ -189,6 +190,11 @@ background-color: #fafafa;
     margin-bottom: 30px;
 }
 /*------------------------------------Testimonials Section */
+
+#ciaran, #sam {
+    width: 100px;
+    height: 100px;
+}
 
 .testimonials {
 background-color: rgb(223, 69, 69);
