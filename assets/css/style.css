@@ -150,7 +150,8 @@ text-align: center;
 }
 
 .services-card { 
-   position: center;
+   margin-left: 25%;
+   margin-right: 25%;
 }
 
 /*------------------------------------Contact Section */
