@@ -51,6 +51,25 @@
     -webkit-transition: all .5s ease-in-out;
 }
 
+
+#catchphrase {
+    height: 100px;
+    width: 50%;
+    float: left;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+#booknow {
+    height: 350px;
+    width: 50%;
+    float: left;
+    margin-left: 10%;
+}
+
+#booknow button {
+    color: #fafafa;
+}
 /*------------------------------------Footer */
 
 
