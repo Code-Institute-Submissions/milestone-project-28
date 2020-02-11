@@ -191,9 +191,10 @@ background-color: #fafafa;
 }
 /*------------------------------------Testimonials Section */
 
-#ciaran, #sam {
+#ciaran, #sam, #glen {
     width: 100px;
     height: 100px;
+    margin: 20px;
 }
 
 .testimonials {
