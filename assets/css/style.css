@@ -27,6 +27,8 @@ hr {
 
 #logo {
     width: 500px;
+    height: 100%;
+
 }
 
 #logo:hover {
@@ -182,6 +184,12 @@ text-align: center;
 section.services.container p {
     margin: 3rem;
 }
+
+.more-info {
+    color: #ffc107;
+    padding-left: 10px;
+}
+
 /*------------------------------------Contact Section */
 
 .contact {
