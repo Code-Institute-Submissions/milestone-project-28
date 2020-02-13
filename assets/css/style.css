@@ -271,4 +271,25 @@ div.card {
 
 /*------------------------------------About Me Section */
 
+.about-us {
+    background-color: #fafafa;
+    text-align: left;
+}
+
+.about-us.container {
+    margin: auto;
+}
+
+.about-us h2 {
+    text-align: center;
+    padding-top: 90px;
+}
+
+section.about-us.container p {
+    margin: 3rem;
+}
+
+section.about-us.container h4 {
+    margin-left: 3rem;
+}
 /*------------------------------------Hover.css */
