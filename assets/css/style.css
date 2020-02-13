@@ -14,6 +14,7 @@ section.services.container p {
 hr {
     width: 25%;
     border-color: #ffc107;
+    margin-bottom: 25px;
 }
 
 
@@ -37,6 +38,7 @@ hr {
 
 .nav a {
     color: #fafafa;
+    margin: auto;
 }
 
 .nav a:hover {
@@ -175,14 +177,13 @@ text-align: center;
 
 .services h2 {
     text-align: center;
-    padding: 30px;
+    padding-top: 90px;
 }
 
 
 .services-card { 
-   margin-left: 25%;
-   margin-right: 25%;
-   margin-bottom: 4rem;
+  margin: auto;
+  margin-bottom: 4rem;
 }
 
 section.services.container p {
@@ -204,14 +205,19 @@ section.services.container p {
     text-align: left;
 }
 
+div.card {
+    background-color: #fafafa;
+}
+
 .services-explained { 
-    margin-top: 8rem;
+    margin-top: 8rem;;
 }
 
 /*------------------------------------Contact Section */
 
 .contact {
 background-color: #fafafa;
+margin-top: 90px;
 }
 
 .contact h2 {
@@ -238,6 +244,7 @@ background-color: #fafafa;
 
 .testimonials {
 background-color: #fafafa;
+margin-top: 90px;
 }
 
 .testimonials div h2 {
