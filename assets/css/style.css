@@ -3,11 +3,19 @@
 /*------------------------------------Colors*/
 
 /*------------------------------------Colors*/
-
+body {
+    background-color: #fafafa
+}
 
 section.services.container p {
     margin: 3rem;
 }
+
+hr {
+    width: 25%;
+    border-color: #ffc107;
+}
+
 
 
 /*------------------------------------Header */
@@ -66,6 +74,11 @@ section.services.container p {
     float: left;
     margin-top: 15%;
     margin-left: 10%;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: oblique;
+
 }
 
 #booknow {
@@ -198,7 +211,7 @@ background-color: #fafafa;
 }
 
 .testimonials {
-background-color: rgb(223, 69, 69);
+background-color: #fafafa;
 }
 
 .testimonials div h2 {
