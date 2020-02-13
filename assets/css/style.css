@@ -316,3 +316,8 @@ section.book-now.container p {
 section.book-now.container h4 {
     margin-left: 3rem;
 }
+
+.apt-time, .apt-types {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
