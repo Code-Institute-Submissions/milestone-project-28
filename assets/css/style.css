@@ -292,4 +292,27 @@ section.about-us.container p {
 section.about-us.container h4 {
     margin-left: 3rem;
 }
-/*------------------------------------Hover.css */
+/*------------------------------------Book Now */
+
+
+.book-now {
+    background-color: #fafafa;
+    text-align: left;
+}
+
+.book-now.container {
+    margin: auto;
+}
+
+.book-now h2 {
+    text-align: center;
+    padding-top: 90px;
+}
+
+section.book-now.container p {
+    margin: 3rem;
+}
+
+section.book-now.container h4 {
+    margin-left: 3rem;
+}
