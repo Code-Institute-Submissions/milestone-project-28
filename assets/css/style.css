@@ -4,7 +4,8 @@
 
 /*------------------------------------Colors*/
 body {
-    background-color: #fafafa
+    background-color: #fafafa;
+    width: 100%;
 }
 
 section.services.container p {
@@ -24,25 +25,41 @@ hr {
 .header {
     background: black;
     text-transform: uppercase;
+    height: 75px;
+    width: 100%;
+}
+
+nav.active a {
+    color: #ffc107;
 }
 
 #logo {
     width: 500px;
     height: 100%;
-
+    margin: auto;
+    padding-top: 15px;
 }
 
 #logo:hover {
-    color: rgba(251,170,25, 1);
+    color: #ffc107;
+}
+
+#menu {
+
 }
 
 .nav a {
     color: #fafafa;
     margin: auto;
+    padding-top: 20px;
+}
+
+@media screen and (max-width:943px){
+    .nav a {}
 }
 
 .nav a:hover {
-    color: rgba(251,170,25, 1);
+    color: #ffc107;
 }
 
 .header a h2 {
@@ -116,7 +133,7 @@ hr {
 }
 
 .social-links li a i:hover {
-    color: rgba(251,170,25, 1);
+    color: #ffc107;
 }
 
 #contact {
@@ -146,11 +163,11 @@ hr {
 }
 
 #contact li a i:hover {
-    color: rgba(251,170,25, 1);
+    color: #ffc107;
 }
 
 .seperator { 
-    color: rgba(251,170,25, 1); 
+    color: #ffc107;
 }
 
 
@@ -320,4 +337,8 @@ section.book-now.container h4 {
 .apt-time, .apt-types {
     margin-bottom: 10px;
     padding-bottom: 10px;
+}
+
+.book-now button {
+    margin-bottom: 20px;
 }
