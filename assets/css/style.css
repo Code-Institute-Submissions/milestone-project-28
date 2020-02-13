@@ -169,6 +169,10 @@ background-color: #fafafa;
 text-align: center;
 }
 
+.services.container {
+    margin: auto;
+}
+
 .services h2 {
     text-align: center;
     padding: 30px;
@@ -188,6 +192,20 @@ section.services.container p {
 .more-info {
     color: #ffc107;
     padding-left: 10px;
+}
+
+.services-more-info {
+   margin-bottom: 8rem;
+   margin-top: 3rem;
+   margin: auto;
+}
+
+.services-more-info p {
+    text-align: left;
+}
+
+.services-explained { 
+    margin-top: 8rem;
 }
 
 /*------------------------------------Contact Section */
