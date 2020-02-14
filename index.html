@@ -20,19 +20,31 @@
 	<header class="header border-bottom border-light rounded">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-6"><a href="index.html">
+				<div class="col-md-6 logo"><a href="index.html">
 						<h2 id="logo">King Performance Therapy</h2>
 					</a></div>
 				<div class="col-md-6">
-					<nav class="nav" id="menu">
-						<a class="nav-link"
-							href="index.html" aria-hidden="true"><span>Home</span></a>
+					<nav class="nav" id="nav-menu">
+						<a class="nav-link" href="index.html" aria-hidden="true"><span>Home</span></a>
 						<a class="nav-link" href="services.html" aria-hidden="true"><span>Services</span></a>
 						<a class="nav-link" href="about.html" aria-hidden="true"><span>About</span></a>
-						<a class="nav-link"
-							href="contact.html" aria-hidden="true"><span>Contact</span></a>
-                            <a class="nav-link" href="book-now.html" aria-hidden="true"><span>Book Now</span></a>
+						<a class="nav-link" href="contact.html" aria-hidden="true"><span>Contact</span></a>
+						<a class="nav-link" href="book-now.html" aria-hidden="true"><span>Book Now</span></a>
 					</nav>
+					<div class="dropdown nav" id="nav-drop"">
+							<button class=" btn btn-warning dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+						King Performance Therapy Menu
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+							<button class="dropdown-item" type="button"><a class="nav-link"
+								href="index.html" aria-hidden="true"><span>Home</span></a></button>
+							<button class="dropdown-item" type="button"><a class="nav-link" href="services.html" aria-hidden="true"><span>Services</span></a></button>
+							<button class="dropdown-item" type="button"><a class="nav-link" href="about.html" aria-hidden="true"><span>About</span></a></button>
+							<button class="dropdown-item" type="button"><a class="nav-link" href="contact.html" aria-hidden="true"><span>Contact</span></a></button>
+                            <button class="dropdown-item" type="button"><a class="nav-link" href="book-now.html" aria-hidden="true"><span>Book Now</span></a></button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -40,13 +52,9 @@
 	<section>
 		<div class="container-fluid border-bottom border-warning rounded" id="hero-image">
 			<div class="row">
-				<div class="col">
-					<h2 id="catchphrase">"More Than A Physio"</h2>
+				<div class="col-md-6" id="booknow"><button type="button" class="btn btn-warning btn-lg border border-light rounded">Book Now</button>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col" id="booknow"><button type="button" class="btn btn-warning btn-lg">Book Now</button>
-				</div>
+                <div class="col-md-6"></div>
 			</div>
 		</div>
 	</section>
@@ -57,7 +65,7 @@
 		</p>
 		<div class="row">
 			<div class="col-md-6">
-				<div class="card services-card" style="width: 18rem;">
+				<div class="card services-card border border-warning rounded" style="width: 18rem;">
 					<img src= "assets/Images/edphysio.jpg" class="card-img-top" alt="Physiotherapy" id="edphysio">
 					<div class="card-body">
 						<h5 class="card-title">Physiotherapy</h5>
@@ -77,7 +85,7 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<div class="card services-card" style="width: 18rem;">
+				<div class="card services-card border border-warning rounded" style="width: 18rem;">
 					<img src="assets/Images/edpt.jpg" class="card-img-top" alt="Personal Training">
 					<div class="card-body">
 						<h5 class="card-title">Personal Training</h5>

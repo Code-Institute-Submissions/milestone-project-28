@@ -38,14 +38,22 @@ nav.active a {
     height: 100%;
     margin: auto;
     padding-top: 15px;
+    float: left;
+}
+
+@media screen and (max-width:943px){
+    #logo {
+    width: 300px;
+    height: 100%;
+    margin: auto;
+    font-size: large;
+    padding-top: 30px;
+    float: left;
+}
 }
 
 #logo:hover {
     color: #ffc107;
-}
-
-#menu {
-
 }
 
 .nav a {
@@ -54,8 +62,26 @@ nav.active a {
     padding-top: 20px;
 }
 
-@media screen and (max-width:943px){
-    .nav a {}
+.dropdown-menu {
+ background-color: #000;
+ margin-top: 20px;
+}
+
+#nav-drop {
+    padding-top: 20px;
+    font-size: large;
+}
+
+@media screen and (max-width:1025px){
+    #nav-menu, #logo, .logo{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1025px){
+    #nav-drop {
+        display: none;
+    }
 }
 
 .nav a:hover {
@@ -89,28 +115,17 @@ nav.active a {
 }
 
 
-#catchphrase {
-    height: 100px;
-    width: 50%;
-    float: left;
-    margin-top: 15%;
-    margin-left: 10%;
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-style: oblique;
-
-}
-
 #booknow {
-    height: 350px;
-    width: 50%;
-    float: left;
-    margin-left: 10%;
+    margin-top: 300px;
+    margin-right: 20%;
+    margin-left: 20%;
+    height: 600px;
 }
 
 #booknow button {
     color: #fafafa;
+    height: 75px;
+    width: 200px;
 }
 /*------------------------------------Footer */
 
@@ -194,7 +209,8 @@ text-align: center;
 
 .services h2 {
     text-align: center;
-    padding-top: 90px;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 
