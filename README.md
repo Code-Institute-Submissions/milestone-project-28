@@ -25,7 +25,7 @@ Feature 1 - Contact forms are available for users to ask questions regarding the
 
 Feauture 2 - A map is available to locate where the business is so local people can see that it is within traveling distance of them.
 
-Feature 3 - Online bookings can be taken using "cliniko" which is embedded into the website.
+Feature 3 - A form so the user can request their ideal time to have their appointment
 
 Feature 4 - Links to social media accounts using the social media icons will be available in the header and footer so that individuals can view its social media business pages.
 
