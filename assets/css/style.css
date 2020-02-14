@@ -63,7 +63,7 @@ nav.active a {
 }
 
 .dropdown-menu {
- background-color: #000;
+ background-color: rgba(0, 0, 0, 0.3);
  margin-top: 20px;
 }
 
@@ -93,13 +93,20 @@ nav.active a {
     text-decoration: none;
 }
 
-
-
 .header a:link {
   text-decoration: none;
 }
 
+.dropdown-item.active {
+    background-color: #ffc107;
+}
 
+.dropdown-item:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+.dropdown-item.active a {
+    color: #000;
+}
 /*------------------------------------Hero-image */
 
 #hero-image {
@@ -126,6 +133,7 @@ nav.active a {
     color: #fafafa;
     height: 75px;
     width: 200px;
+    font-weight: 700
 }
 /*------------------------------------Footer */
 

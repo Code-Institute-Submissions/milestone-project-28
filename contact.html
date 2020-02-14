@@ -17,23 +17,34 @@
 
 <body>
 	<!--Header-->
-	<header class="header border-bottom border-warning">
+	<header class="header border-bottom border-light rounded-bottom">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-6"><a href="index.html">
+				<div class="col-md-6 logo"><a href="index.html">
 						<h2 id="logo">King Performance Therapy</h2>
 					</a></div>
 				<div class="col-md-6">
-					<nav class="nav">
-						<a class="nav-link"
-							href="index.html" aria-hidden="true"><span>Home</span></a>
-						<a class="nav-link"
-							href="services.html" aria-hidden="true"><span>Services</span></a>
+					<nav class="nav" id="nav-menu">
+						<a class="nav-link" href="index.html" aria-hidden="true"><span>Home</span></a>
+						<a class="nav-link" href="services.html" aria-hidden="true"><span>Services</span></a>
 						<a class="nav-link" href="about.html" aria-hidden="true"><span>About</span></a>
-						<a class="nav-link active"
-							href="contact.html" aria-hidden="true"><span>Contact</span></a>
-                            <a class="nav-link" href="book-now.html" aria-hidden="true"><span>Book Now</span></a>
+						<a class="nav-link" href="contact.html" aria-hidden="true"><span>Contact</span></a>
+						<a class="nav-link" href="book-now.html" aria-hidden="true"><span>Book Now</span></a>
 					</nav>
+					<div class="dropdown nav" id="nav-drop"">
+							<button class=" btn btn-warning dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+						King Performance Therapy Menu
+						</button>
+						<div class="dropdown-menu border border-dark rounded" aria-labelledby="dropdownMenu2">
+							<button class="dropdown-item active" type="button"><a class="nav-link"
+								href="index.html" aria-hidden="true"><span>Home</span></a></button>
+							<button class="dropdown-item" type="button"><a class="nav-link" href="services.html" aria-hidden="true"><span>Services</span></a></button>
+							<button class="dropdown-item" type="button"><a class="nav-link" href="about.html" aria-hidden="true"><span>About</span></a></button>
+							<button class="dropdown-item" type="button"><a class="nav-link" href="contact.html" aria-hidden="true"><span>Contact</span></a></button>
+                            <button class="dropdown-item" type="button"><a class="nav-link" href="book-now.html" aria-hidden="true"><span>Book Now</span></a></button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
