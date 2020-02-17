@@ -5,24 +5,41 @@ UX
 
 This website is for any individual who is seeking physiotherapy or personal training, as they are in pain or want to get into shape respectively. This website allows each user to learn more about the services on offer and to request a time for the appointment type they would like. The goal is to drive users to "book-now.html" (using call to actions) to fill out this form which will result in a phone call being made to them by the sales/admin team to confirm their booking. 
 
-As a prospective physiotherapy customer, I want to learn more about the product; so I click on services in the navbar or "more info" in the physio card in the services section on the homepage. I read about how Physio can help me with my pain. As I am reading I decide that I need this service which leads me to click on the call to action at the end of the information that leads me to booking.html where I fill out the form and await for my booking to be confirmed.
+As a prospective physiotherapy customer (user X), I want to learn more about the product; so I click on services in the navbar or "more info" in the physio card in the services section on the homepage. I read about how Physio can help me with my pain. As I am reading I decide that I need this service which leads me to click on the call to action at the end of the information that leads me to booking.html where I fill out the form and await for my booking to be confirmed.
 
-As a prospective personal training client I read about how this serice may benefit me; I also realised that personal training is provided by chartered physiotherapists so they have to know what they're talking about and they may be able to help me with my chronic back at the same time. I am a bit hesitant to pay for one session as I know this may not be enough but I am delighted to see that there is a special offer on. I click one of the many "book-nows" scattered across the website which leads me to book-now.html where I fill out the booking form and await a phone call. 
+As a prospective personal training client (user Y) I read about how this service may benefit me; I also realised that personal training is provided by chartered physiotherapists so they have to know what they're talking about and they may be able to help me with my chronic back at the same time. I am a bit hesitant to pay for one session as I know this may not be enough but I am delighted to see that there is a special offer on. I click one of the many "book-nows" scattered across the website which leads me to book-now.html where I fill out the booking form and await a phone call. 
 
 Link to balsamiq for wireframe: https://balsamiq.cloud/sy63kqw/pun0db2
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+index.html - the home page allows users to get a sense of what the business is about. The Hero-image facilitates this with a nice picture of the logo on the shorts. There are many call to action buttons on this page in each section which lead to book-now.html where the user can request a booking, which is the goal of the website.
+
+services.html - This page allows users to familiarise themselves with Physiotherapy and Personal Training; with the hope that this increase in understanding of what is ebing provided will prompt the user to click the call to action and follow through with the goal of the website which is to fill out the form on booking.html.
+
+contact.html - This page is solely for users to contact the business. It is a nicer version of the "contact us" sections that are placed on other pages. A secondary goal of the website would be for the user to fill out this form with any questions or queries as this action shows that they have a high degree of interest in the services which means they are good prospects.
+
+about.html - This Page allows the user to understand who is providing the services, what they provide and why they provide it.
+
+book-now.html - The primary goal of the website is to ge tthe user to this page to fill out the form requesting an appointment. Many call to actions on all of the other pagesof the website are there to facilitate this process.
 
 Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Call to actions - There are 9 "book now" buttons scattered across all of the pages strategically placed after a piece of content that increases the User's understanding of the services. These call to action buttons lead directly to book-now.html.
 
-Features Left to Implement
-Another feature idea
+Booking Form - allows users X+Y to request a booking at their preferred time for Physiotherapy or Personal Training by having them fill out the booking form on book-now.html.
+
+Contact Form - allows users X+Y to ask questions to the business about the business. Contact forms are available on every page to facilitate this.
+
+More-info - these links lead directly to the relevant section of the service that the user requested more information on. Once the user has connsumed the extra information there is a call to aciton button awaiting them which will lead them to book-now.html if they feel the understanding of the service is sufficient.
+
+Map - The iframe of google maps allows users to see where the business is so that they know it is possible to get there.
+
+Testimonials - Testimonials are there to illustrate to the user that this service has helped others with their problems, therefore it can help them.
+
+
+Another feature idea -  Having a cliniko (scheduling software) API embedded into the page book-now.html so patients can actually make their own bookings which would reduce the length of the sales cycle; similar to this https://kingpt.ie/book-now/ .
+Another Feature idea - Have a consent form page. Once the patient books online using the above cliniko software they recieve a confirmation email which contains a link to the consent form page which is similar to this https://kingpt.ie/consent-form/ .
+
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
