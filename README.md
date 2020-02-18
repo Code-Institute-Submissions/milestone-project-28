@@ -53,29 +53,30 @@ CSS
 
 Testing
 
-Call to actions - All 9 call to action buttons were used and resulted landing on the book-now.html page.
+Testing
+Call to actions:
+All 9 call to action buttons were used and resulted landing on the book-now.html page. It would be ideal to have an animation for the landing on the book-now.html page to improve the UX.
 
-Contact-Forms + booking-form - Empty forms and single empty "required" fields were left blank when each form was submitted and they did not submit. The wrong format for email addresses were attempted and it did not submit. The full form in the correct format was then attempted and it resulted in the correct format for the form-dump page provided by the code institute displaying all of the data that was provided by the user.
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals. One issue that was encountered at the beginning of the testing process for all of the forms was that there was no date displayed when the form was submitted to the form dump; it was soon realised that the "name" attribute had been left out of all of the inputs for all of the forms. This was very quickly rectified.
+Contact-Forms + booking-form: 
+•	Attempted to submit empty forms to verify that an error message about the empty fields appears.
+•	Attempted to submit single empty "required" fields to verify that an error message appears.
+•	Attempted to submit an email address in the wrong format to verify that an error message appears.
+•	Submitted full form in correct format to verify that the form works; the form dump page appears to verify this. 
+•	An issue that was encountered for all forms was that the data that was submitted was not being displayed in the form dump page due to the complete absence of the name attribute in all of the form inputs. This issue was quickly rectified. Each form was then retested and the data was displayed. 
+•	Another issue is that on submission of the data in the booking-form, the data displayed in the form dump page is very messy and is not in the order of the UX of the booking-form. It is believed that this is due to dividing some of the page up into 2 columns within rows; this issue currently remains there.
 
-More-info - The more-info links that are linked to the Physiotheapy Section on services.html worked correctly. It would be ideal to have a nicer animation for this to improve the UX; the same was process was undertaken for the more-info links that are linked to the Personal Training section on services.html.
+More-info:
+The more-info links that are linked to the Physiotherapy Section on services.html worked correctly; the same process was undertaken for the more-info links that are linked to the Personal Training section on services.html. It would be ideal to have a nicer animation for this to improve the UX; the same process was undertaken for the more-info links that are linked to the Personal Training section on services.html.
 
+Header responsiveness:
+At and less than 1025px width the Navigation menu and logo became too bunched together so a media query was used to get rid of the logo and to have a drop-down menu for the navbar to improve the user experience.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Page responsiveness:
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Throughout the project at and less than 515px the whole right side of every page became increasingly white as the width of the screen decreased. It was always unknown why this was happening as many attempts to solve the problem using developer tools were made. However, around the time that the header media query was implemented this issue started to happen at and less than 401px in width. It currently remains there and does not highlight when observed using developer tools.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+Images 
+Many attempts were made to get url("../Images/footerlogo.jpg") in the left corner of the header and the footer; however, after many attempts it proved to be too difficult and time consuming to try and get the image to fit nicely on both of those areas. The words "King Performance Therapy" sufficed as the logo for the header and the footer was left alone.
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
