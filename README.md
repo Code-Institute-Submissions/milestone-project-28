@@ -14,7 +14,7 @@ https://balsamiq.cloud/sy63kqw/pun0db2
 - Primary Goal Of Features – Drive users X + Y to book-now.html so that they seek a booking
 - Secondary Goal Of Features – Increase the understanding the users have about the services or the provision of the services and then drive them to the book-now.html page 
 ### Existing Features
-####Call to actions 
+#### Call to actions 
 - There are 9 "book now" buttons scattered across all of the pages strategically placed after a piece of content that increases the User's understanding of the services. These call to action buttons lead directly to book-now.html which is the primary goal of the UX.
 #### Booking Form (Pimrary Goal) 
 - allows users X+Y to request a booking at their preferred time for Physiotherapy or Personal Training appointment by having them fill out the booking form on book-now.html.
