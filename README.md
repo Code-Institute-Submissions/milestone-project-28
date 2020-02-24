@@ -1,6 +1,6 @@
-King Performance Therapy
+#King Performance Therapy
 This is a website for a Chartered Physiotherapy and Personal Training business that allows prospects to gather an understanding of the services on offer and to allow them to fill out a form where they can request a specific time for an appointment.
-UX
+##UX
 This website is for any individual who is seeking physiotherapy or personal training, as they are in pain or want to get into shape respectively. It allows each user to learn more about the services on offer and to request a time for the appointment type they would like. The goal is to drive users to "book-now.html" (using call to actions) to fill out this form which will result in a phone call being made to them by the sales/admin team to confirm their booking.
 ###User Journey
 ####Journey A: 
