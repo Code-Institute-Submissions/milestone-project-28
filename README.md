@@ -14,7 +14,8 @@ https://balsamiq.cloud/sy63kqw/pun0db2
 •	Primary Goal Of Features – Drive users X + Y to book-now.html so that they seek a booking
 •	Secondary Goal Of Features – Increase the understanding the users have about the services or the provision of the services and then drive them to the book-now.html page 
 Existing Features
-Call to actions - There are 9 "book now" buttons scattered across all of the pages strategically placed after a piece of content that increases the User's understanding of the services. These call to action buttons lead directly to book-now.html which is the primary goal of the UX.
+####Call to actions 
+- There are 9 "book now" buttons scattered across all of the pages strategically placed after a piece of content that increases the User's understanding of the services. These call to action buttons lead directly to book-now.html which is the primary goal of the UX.
 #### Booking Form (Pimrary Goal) 
 - allows users X+Y to request a booking at their preferred time for Physiotherapy or Personal Training appointment by having them fill out the booking form on book-now.html.
 #### Contact Form (Secondary Goal) 
@@ -45,14 +46,14 @@ o	All 9 call to action buttons were used and resulted landing on the book-now.ht
 o	It would be ideal to have an animation for the landing on the book-now.html page to improve the UX.
 
 #### Contact-Forms + booking-form: 
-o	 Attempted to submit empty forms to verify that an error message about the empty fields appears. 
-o	Attempted to submit single empty "required" fields to verify that an error message appears. 
-o	Attempted to submit an email address in the wrong format to verify that an error message appears. 
-o	Submitted full form in correct format to verify that the form works; the form dump page appears to verify this.
-o	Issue 1: 
-	The name attribute was missing from all forms so no data was being sent/displayed to the form dump. This was fixed.
-o	Issue 2:
-	The data submitted in the booking form is jumbled up and not in the order that it was filled in on the front-end. It is believed that this is due to dividing some of the page up into 2 columns within rows; this issue currently remains there.
+*Attempted to submit empty forms to verify that an error message about the empty fields appears. 
+*Attempted to submit single empty "required" fields to verify that an error message appears. 
+*Attempted to submit an email address in the wrong format to verify that an error message appears. 
+*Submitted full form in correct format to verify that the form works; the form dump page appears to verify this.
+*Issue 1: 
+*The name attribute was missing from all forms so no data was being sent/displayed to the form dump. This was fixed.
+*Issue 2:
+*The data submitted in the booking form is jumbled up and not in the order that it was filled in on the front-end. It is believed that this is due to dividing some of the page up into 2 columns within rows; this issue currently remains there.
 
 #### More-info: 
 o	The more-info links that are linked to the Physiotherapy Section on services.html worked correctly; the same process was undertaken for the more-info links that are linked to the Personal Training section on services.html. 
