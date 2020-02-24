@@ -29,19 +29,19 @@ https://balsamiq.cloud/sy63kqw/pun0db2
 ### Other Feature Ideas
 - Having a cliniko (scheduling software) API embedded into the page book-now.html so patients can actually make their own bookings which would reduce the length of the sales cycle; similar to this https://kingpt.ie/book-now/ . 
 - Have a consent form page. Once the patient books online using the above cliniko software they receive a confirmation email which contains a link to the consent form page which is similar to this https://kingpt.ie/consent-form/ . This page would not be located in the NavBar as it would interrupt the initial UX.
-## Technologies Used 
-**html**
-**CSS**
-**Bootstrap**: 
+## Technologies Used: 
+- **html**
+- **CSS**
+- **Bootstrap**: 
 - The Project uses Boostrap to facilitate responsiveness across device types and to use the extensive pre-built component library to expedite the construction of the site. 
-**Font Awesome**: 
+- **Font Awesome**: 
 - The Project uses Font Awesome for its social media, mail and telephone icons as this gives a beter user experience. 
-**Google Maps**: 
+- **Google Maps**: 
 - The Project uses Google Maps to allow the user to see where King Performance Therapy is located. 
-**Code Institute Form Dump**: 
+- **Code Institute Form Dump**: 
 - The Project uses the form dump as there is currently no back-end for this project where the data from the forms can be stored
 ## Testing
- **Call to actions**: 
+- **Call to actions**: 
 - All 9 call to action buttons were used and resulted landing on the book-now.html page. 
 - It would be ideal to have an animation for the landing on the book-now.html page to improve the UX.
 
