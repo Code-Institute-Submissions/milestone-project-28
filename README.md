@@ -29,18 +29,22 @@ Call to actions - There are 9 "book now" buttons scattered across all of the pag
 •	Having a cliniko (scheduling software) API embedded into the page book-now.html so patients can actually make their own bookings which would reduce the length of the sales cycle; similar to this https://kingpt.ie/book-now/ . 
 •	Have a consent form page. Once the patient books online using the above cliniko software they receive a confirmation email which contains a link to the consent form page which is similar to this https://kingpt.ie/consent-form/ . This page would not be located in the NavBar as it would interrupt the initial UX.
 ## Technologies Used 
-•	#### html 
-•	#### CSS 
-•	#### Bootstrap - The Project uses Boostrap to facilitate responsiveness across device types and to use the extensive pre-built component library to expedite the construction of the site. 
-•	#### Font Awesome - The Project uses Font Awesome for its social media, mail and telephone icons as this gives a beter user experience. 
-•	#### Google Maps - The Project uses Google Maps to allow the user to see where King Performance Therapy is located. 
-•	#### Code Institute Form Dump - The Project uses the form dump as there is currently no back-end for this project where the data from the forms can be stored
+#####• html 
+#####• CSS 
+#####• Bootstrap 
+- The Project uses Boostrap to facilitate responsiveness across device types and to use the extensive pre-built component library to expedite the construction of the site. 
+#####• Font Awesome 
+- The Project uses Font Awesome for its social media, mail and telephone icons as this gives a beter user experience. 
+#####• Google Maps 
+- The Project uses Google Maps to allow the user to see where King Performance Therapy is located. 
+#####• Code Institute Form Dump 
+- The Project uses the form dump as there is currently no back-end for this project where the data from the forms can be stored
 ## Testing
-•	#### Call to actions: 
+####• Call to actions: 
 o	All 9 call to action buttons were used and resulted landing on the book-now.html page. 
 o	It would be ideal to have an animation for the landing on the book-now.html page to improve the UX.
 
-•	#### Contact-Forms + booking-form: 
+####• Contact-Forms + booking-form: 
 o	 Attempted to submit empty forms to verify that an error message about the empty fields appears. 
 o	Attempted to submit single empty "required" fields to verify that an error message appears. 
 o	Attempted to submit an email address in the wrong format to verify that an error message appears. 
@@ -50,19 +54,19 @@ o	Issue 1:
 o	Issue 2:
 	The data submitted in the booking form is jumbled up and not in the order that it was filled in on the front-end. It is believed that this is due to dividing some of the page up into 2 columns within rows; this issue currently remains there.
 
-•	#### More-info: 
+####• More-info: 
 o	The more-info links that are linked to the Physiotherapy Section on services.html worked correctly; the same process was undertaken for the more-info links that are linked to the Personal Training section on services.html. 
 o	It would be ideal to have a landing animation for this to improve the UX.
 
-•	#### Header responsiveness: 
+####• Header responsiveness: 
 o	At and less than 1025px width the Navigation menu and logo became too bunched together so a media query was used to get rid of the logo and to have a drop-down menu for the navbar to improve the user experience.
 
-•	#### Page responsiveness:
+####• Page responsiveness:
 o	Throughout the project at and less than 515px the whole right side of every page became increasingly white as the width of the screen decreased. It was always unknown why this was happening as many attempts to solve the problem using developer tools were made. However, around the time that the header media query was implemented this issue started to happen at and less than 401px in width. It currently remains there and does not highlight when observed using developer tools.
 
-•	#### Images 
+####• Images 
 o	Many attempts were made to have “footerlogo.jpg" in the left corner of the header and the footer; however, after many attempts it proved to be too difficult and time consuming to do ti well enough. The words "King Performance Therapy" sufficed as the logo for the header and the footer was left alone. 
-##Deployment 
+## Deployment 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 Different values for environment variables (Heroku Config Vars)? Different configuration files? Separate git branch? In addition, if it is not obvious, you should also describe how to run your code locally.
