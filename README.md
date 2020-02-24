@@ -32,14 +32,10 @@ https://balsamiq.cloud/sy63kqw/pun0db2
 ## Technologies Used: 
 - **html**
 - **CSS**
-- **Bootstrap**: 
-- The Project uses Boostrap to facilitate responsiveness across device types and to use the extensive pre-built component library to expedite the construction of the site. 
-- **Font Awesome**: 
-- The Project uses Font Awesome for its social media, mail and telephone icons as this gives a beter user experience. 
-- **Google Maps**: 
-- The Project uses Google Maps to allow the user to see where King Performance Therapy is located. 
-- **Code Institute Form Dump**: 
-- The Project uses the form dump as there is currently no back-end for this project where the data from the forms can be stored
+- **Bootstrap** - The Project uses Boostrap to facilitate responsiveness across device types and to use the extensive pre-built component library to expedite the construction of the site. 
+- **Font Awesome** - The Project uses Font Awesome for its social media, mail and telephone icons as this gives a beter user experience. 
+- **Google Maps** - The Project uses Google Maps to allow the user to see where King Performance Therapy is located. 
+- **Code Institute Form Dump** - The Project uses the form dump as there is currently no back-end for this project where the data from the forms can be stored
 ## Testing
 - **Call to actions**: 
 - All 9 call to action buttons were used and resulted landing on the book-now.html page. 
