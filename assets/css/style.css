@@ -258,6 +258,7 @@ div.card {
 .contact {
 background-color: #fafafa;
 margin-top: 90px;
+margin-bottom: 90px;
 }
 
 .contact h2 {
@@ -274,6 +275,7 @@ margin-top: 90px;
 .contact form {
     margin-bottom: 30px;
 }
+
 /*------------------------------------Testimonials Section */
 
 #ciaran, #sam, #glen {
@@ -362,5 +364,5 @@ section.book-now.container h4 {
 }
 
 .book-now button {
-    margin-bottom: 20px;
+    margin-bottom: 90px;
 }
