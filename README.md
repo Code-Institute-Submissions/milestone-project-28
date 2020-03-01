@@ -78,6 +78,11 @@ https://balsamiq.cloud/sy63kqw/pun0db2
 - Many attempts were made to compress hero image to reduce loading time but this led to image having a severe lack of focus which was uncomfortable to view.
 - A trade off was made: slower loading time for a better visual experience for the user.
 - All other images in the project were compressed to be around 500KB in size.
+
+#### Validation 
+- Two Issues remain after validation that were not understood
+- 1. an "<a>" cannot be nested within a "<button>" and vice versa : "The element button must not appear as a descendant of the a element" AND "The element a must not appear as a descendant of the button element."
+- 2. comments were flagged due to consecutive hyphons : The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment.
 ## Deployment 
 - Landed on the github page for my milestone project at this link https://github.com/edking94/milestone-project-1
 - Clicked into Settings on the above page.
