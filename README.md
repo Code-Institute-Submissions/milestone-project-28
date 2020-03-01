@@ -19,7 +19,6 @@ https://edking94.github.io/milestone-project-1/
 
 #### Link to balsamiq for wireframe: 
 https://balsamiq.cloud/sy63kqw/pun0db2
-<img src= "assets/Images/index.html.png" style="width:50px;height:50px;">
 
 ## Features
 - Primary Goal Of Features – Drive users X + Y to book-now.html so that they seek a booking
