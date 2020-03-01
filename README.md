@@ -72,7 +72,12 @@ https://balsamiq.cloud/sy63kqw/pun0db2
 - Throughout the project at and less than 515px the whole right side of every page became increasingly white as the width of the screen decreased. It was always unknown why this was happening as many attempts to solve the problem using developer tools were made. However, around the time that the header media query was implemented this issue started to happen at and less than 401px in width. It currently remains there and does not highlight when observed using developer tools.
 - Images used in this prject were initially far too big which was slowing down the load time. Image have to be replaced with versions under 500KB.
 #### Images 
-- Many attempts were made to have “footerlogo.jpg" in the left corner of the header and the footer; however, after many attempts it proved to be too difficult and time consuming to do ti well enough. The words "King Performance Therapy" sufficed as the logo for the header and the footer was left alone. 
+- Many attempts were made to have “footerlogo.jpg" in the left corner of the header and the footer; however, after many attempts it proved to be too difficult and time consuming to do ti well enough. The words "King Performance Therapy" sufficed as the logo for the header and the footer was left alone.
+#### Loading time
+- Hero Image is far too big, therefore loading time is too slowing.
+- Many attempts were made to compress hero image to reduce loading time but this led to image having a severe lack of focus which was uncomfortable to view.
+- A trade off was made: slower loading time for a better visual experience for the user.
+- All other images in the prject were compressed to be around 500KB in size.
 ## Deployment 
 - Landed on the github page for my milestone project at this link https://github.com/edking94/milestone-project-1
 - Clicked into Settings on the above page.
