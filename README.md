@@ -74,16 +74,23 @@ https://balsamiq.cloud/sy63kqw/pun0db2
 #### Images 
 - Many attempts were made to have “footerlogo.jpg" in the left corner of the header and the footer; however, after many attempts it proved to be too difficult and time consuming to do ti well enough. The words "King Performance Therapy" sufficed as the logo for the header and the footer was left alone.
 #### Loading time
-- Hero Image is far too big, therefore loading time is too slowing.
+- Hero Image is far too big, therefore loading time is too slow.
 - Many attempts were made to compress hero image to reduce loading time but this led to image having a severe lack of focus which was uncomfortable to view.
 - A trade off was made: slower loading time for a better visual experience for the user.
-- All other images in the prject were compressed to be around 500KB in size.
+- All other images in the project were compressed to be around 500KB in size.
 ## Deployment 
 - Landed on the github page for my milestone project at this link https://github.com/edking94/milestone-project-1
 - Clicked into Settings on the above page.
 - Scrolled down to "GitHub Pages" section.
 - Published the master branch which is available at this link https://edking94.github.io/milestone-project-1/
 
-Credits 
-Content 
-The text for section Y was copied from the Wikipedia article Z Media The photos used in this site were obtained from ... Acknowledgements I received inspiration for this project from X
+## Credits
+- All images are owned by the creater of this project.
+- Testimonial images are friends of the creater of this project and granted consent for these images to be used. They wish to remain anonymous so fictional names were implemented.
+- King Performance Therapy is a real business owned by the creater of this project.
+
+## Content
+- Google my business/Google Maps was used to implement a live map of the location of the business.
+- The text in services.html and about.html was taken from https://kingpt.ie
+## Acknowledgements
+- Inspiration for colors, layout and features was taken from https://kingpt.ie which is the real business page for King Performance Therapy
