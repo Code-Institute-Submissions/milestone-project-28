@@ -70,7 +70,7 @@ https://balsamiq.cloud/sy63kqw/pun0db2
 
 #### Page responsiveness:
 - Throughout the project at and less than 515px the whole right side of every page became increasingly white as the width of the screen decreased. It was always unknown why this was happening as many attempts to solve the problem using developer tools were made. However, around the time that the header media query was implemented this issue started to happen at and less than 401px in width. It currently remains there and does not highlight when observed using developer tools.
-
+- Images used in this prject were initially far too big which was slowing down the load time. Image have to be replaced with versions under 500KB.
 #### Images 
 - Many attempts were made to have “footerlogo.jpg" in the left corner of the header and the footer; however, after many attempts it proved to be too difficult and time consuming to do ti well enough. The words "King Performance Therapy" sufficed as the logo for the header and the footer was left alone. 
 ## Deployment 
