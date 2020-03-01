@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:200,400|Exo:200,400');
 
-/*------------------------------------Colors*/
 
 /*------------------------------------Colors*/
 body {
@@ -17,8 +16,6 @@ hr {
     border-color: #ffc107;
     margin-bottom: 25px;
 }
-
-
 
 /*------------------------------------Header */
 
@@ -226,6 +223,7 @@ text-align: center;
   margin: auto;
   margin-bottom: 4rem;
 }
+
 
 section.services.container p {
     margin: 3rem;

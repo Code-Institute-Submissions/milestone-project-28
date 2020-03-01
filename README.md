@@ -1,12 +1,22 @@
 # King Performance Therapy
 This is a website for a Chartered Physiotherapy and Personal Training business that allows prospects to gather an understanding of the services on offer and to allow them to fill out a form where they can request a specific time for an appointment.
+https://edking94.github.io/milestone-project-1/
 ## UX
-This website is for any individual who is seeking physiotherapy or personal training, as they are in pain or want to get into shape respectively. It allows each user to learn more about the services on offer and to request a time for the appointment type they would like. The goal is to drive users to "book-now.html" (using call to actions) to fill out this form which will result in a phone call being made to them by the sales/admin team to confirm their booking.
-###U ser Journey
-#### Journey A: 
-As a prospective physiotherapy customer (user X) I can learn more about the product by clicking on the services page in the navbar or "more info" in the physio card in the services section on the homepage. I read about how Physio can help me with my pain. A call to action immediately follows the content I was reading which leads me to booking.html where I fill out the form and await for my booking to be confirmed. IF I do not desire to fill out a booking form but I am also wanting to learn more, I can click on the “About Me” page or contact King Performance Therapy directly using the many contact forms/contact page which is designed for this purpose.
-#### Journey B: 
-As a prospective personal training client (user Y) ) I can learn more about the product by clicking on the services page in the navbar or "more info" in the personal training card in the services section on the homepage. I read about how Personal Training can help me with my weight loss A call to action immediately follows the content I was reading which leads me to booking.html where I fill out the form and await for my booking to be confirmed. IF I do not desire to fill out a booking form but I am also wanting to learn more, I can click on the “About Me” page or contact King Performance Therapy directly using the many contact forms/contact page which is designed for this purpose.
+- This website is for any individual who is seeking physiotherapy or personal training, as they are in pain or want to get into shape respectively. 
+- It allows each user to learn more about the services on offer and to request a time for the appointment type they would like. 
+- The goal is to drive users to "book-now.html" (using call to actions) to fill out this form which will result in a phone call being made to them by the sales/admin team to confirm their booking.
+###User Journey
+#### User X: 
+As a prospective physiotherapy customer (user X) I can learn more about the product by clicking on the services page in the navbar or "more info" in the physio card in the services section on the homepage. 
+- I read about how Physio can help me with my pain. 
+- A call to action immediately follows the content I was reading which leads me to booking.html where I fill out the form and await for my booking to be confirmed. 
+- IF I do not desire to fill out a booking form but I am also wanting to learn more, I can click on the “About Me” page or contact King Performance Therapy directly using the many contact forms/contact page which is designed for this purpose.
+#### User Y: 
+As a prospective personal training client (user Y) ) I can learn more about the product by clicking on the services page in the navbar or "more info" in the personal training card in the services section on the homepage. 
+- I read about how Personal Training can help me with my weight loss.
+- A call to action immediately follows the content I was reading which leads me to booking.html where I fill out the form and await for my booking to be confirmed. 
+- IF I do not desire to fill out a booking form but I am also wanting to learn more, I can click on the “About Me” page or contact King Performance Therapy directly using the many contact forms/contact page which is designed for this purpose.
+
 #### Link to balsamiq for wireframe: 
 https://balsamiq.cloud/sy63kqw/pun0db2
 
