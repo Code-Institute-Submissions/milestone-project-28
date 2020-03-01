@@ -97,5 +97,6 @@ https://balsamiq.cloud/sy63kqw/pun0db2
 ## Content
 - Google my business/Google Maps was used to implement a live map of the location of the business.
 - The text in services.html and about.html was taken from https://kingpt.ie
+- Font Awesome used for icons
 ## Acknowledgements
 - Inspiration for colors, layout and features was taken from https://kingpt.ie which is the real business page for King Performance Therapy
