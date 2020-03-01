@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:200,400|Exo:200,400');
 
 
-/*------------------------------------Colors*/
+/*------------------------------------general*/
+
 body {
     background-color: #fafafa;
     width: 100%;
-}
-
-section.services.container p {
-    margin: 3rem;
 }
 
 hr {
@@ -197,11 +194,7 @@ background: cover;
 text-align: center;
 }
 
-
-/*------------------------------------Menu */
-
 /*------------------------------------My Services Section */
-
 
 .services {
 background-color: #fafafa;
@@ -303,12 +296,6 @@ text-align: center;
 div.card {
     border: 0;
 }
-
-/*------------------------------------Physiotherapy Section */
-
-/*------------------------------------Personal Training Section */
-
-/*------------------------------------Special Offer Section */
 
 /*------------------------------------About Me Section */
 
