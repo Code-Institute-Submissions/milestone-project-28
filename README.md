@@ -77,7 +77,7 @@ https://balsamiq.cloud/sy63kqw/pun0db2
 - Hero Image is far too big, therefore loading time is too slow.
 - Many attempts were made to compress hero image to reduce loading time but this led to image having a severe lack of focus which was uncomfortable to view.
 - A trade off was made: slower loading time for a better visual experience for the user.
-- All other images in the project were compressed to be around 500KB in size.
+- All other images in the project were compressed to be around 500KB in size; the originals were left in the "Images" folder for review.
 
 #### Validation 
 - Two Issues remain after validation that were not understood clearly after research
@@ -99,4 +99,4 @@ https://balsamiq.cloud/sy63kqw/pun0db2
 - The text in services.html and about.html was taken from https://kingpt.ie
 - Font Awesome used for icons
 ## Acknowledgements
-- Inspiration for colors, layout and features was taken from https://kingpt.ie which is the real business page for King Performance Therapy
+- Inspiration for colors, layout and features was taken from https://kingpt.ie which is the real business page for King Performance Therapy, owned by the creater of this project.
