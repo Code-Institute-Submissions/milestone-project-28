@@ -74,9 +74,11 @@ https://balsamiq.cloud/sy63kqw/pun0db2
 #### Images 
 - Many attempts were made to have “footerlogo.jpg" in the left corner of the header and the footer; however, after many attempts it proved to be too difficult and time consuming to do ti well enough. The words "King Performance Therapy" sufficed as the logo for the header and the footer was left alone. 
 ## Deployment 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-Different values for environment variables (Heroku Config Vars)? Different configuration files? Separate git branch? In addition, if it is not obvious, you should also describe how to run your code locally.
+- Landed on the github page for my milestone project at this link https://github.com/edking94/milestone-project-1
+- Clicked into Settings on the above page.
+- Scrolled down to "GitHub Pages" section.
+- Published the master branch which is available at this link https://edking94.github.io/milestone-project-1/
+
 Credits 
 Content 
 The text for section Y was copied from the Wikipedia article Z Media The photos used in this site were obtained from ... Acknowledgements I received inspiration for this project from X
